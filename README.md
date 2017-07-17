@@ -2,7 +2,6 @@
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/pkg-size.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/pkg-size/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/pkg-size)
-[![Coverage Status](https://img.shields.io/coveralls/Kikobeats/pkg-size.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/pkg-size)
 [![Dependency status](https://img.shields.io/david/Kikobeats/pkg-size.svg?style=flat-square)](https://david-dm.org/Kikobeats/pkg-size)
 [![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/pkg-size.svg?style=flat-square)](https://david-dm.org/Kikobeats/pkg-size#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/pkg-size.svg?style=flat-square)](https://www.npmjs.org/package/pkg-size)
