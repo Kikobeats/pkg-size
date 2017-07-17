@@ -1,0 +1,58 @@
+{
+  "name": "pkg-size",
+  "description": "Get the expected size of your npm package",
+  "homepage": "https://github.com/Kikobeats/pkg-size",
+  "version": "0.0.0",
+  "main": "index.js",
+  "bin": {
+    "pkg-size": "bin/index.js"
+  },
+  "author": {
+    "name": "Kiko Beats",
+    "url": "https://github.com/Kikobeats"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kikobeats/pkg-size.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kikobeats/pkg-size/issues"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "package",
+    "bundle",
+    "size",
+    "pack"
+  ],
+  "dependencies": {
+    "execa": "~0.7.0",
+    "meow": "~3.7.0",
+    "pretty-bytes": "~4.0.2",
+    "update-notifier": "~2.2.0"
+  },
+  "devDependencies": {
+    "coveralls": "latest",
+    "git-dirty": "latest",
+    "nyc": "latest",
+    "prettier-standard": "latest",
+    "standard": "latest",
+    "standard-markdown": "latest"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "standard-markdown && standard",
+    "prelint": "npm run pretty",
+    "pretest": "npm run lint",
+    "pretty": "prettier-standard index.js src/**/*.js test/**/*.js bin/**/*.js",
+    "test": "exit 0"
+  },
+  "preferGlobal": true,
+  "license": "MIT"
+}
