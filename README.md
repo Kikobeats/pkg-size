@@ -1,7 +1,5 @@
 # pkg-size
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/pkg-size.svg)](https://greenkeeper.io/)
-
 ![Last version](https://img.shields.io/github/tag/Kikobeats/pkg-size.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/pkg-size/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/pkg-size)
 [![Dependency status](https://img.shields.io/david/Kikobeats/pkg-size.svg?style=flat-square)](https://david-dm.org/Kikobeats/pkg-size)
