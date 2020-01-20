@@ -1,7 +1,7 @@
 {
   "name": "pkg-size",
   "description": "Get the expected size of your npm package",
-  "homepage": "https://github.com/Kikobeats/pkg-size",
+  "homepage": "https://nicedoc.io/Kikobeats/pkg-size",
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
@@ -25,10 +25,10 @@
     "size"
   ],
   "dependencies": {
-    "execa": "~2.0.1",
-    "meow": "~5.0.0",
-    "pretty-bytes": "~5.2.0",
-    "update-notifier": "~3.0.0"
+    "execa": "~4.0.0",
+    "meow": "~6.0.0",
+    "pretty-bytes": "~5.3.0",
+    "update-notifier": "~4.0.0"
   },
   "devDependencies": {
     "coveralls": "latest",
